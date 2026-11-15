@@ -66,9 +66,7 @@ try {
 
 ## Building
 
-**Xcode:** open `ThreadPoolWithDelay.xcodeproj` and run the `ThreadPoolWithDelay` scheme.
-
-**Command line** (clang or GCC, C++17 or later):
+Any C++17 compiler works (clang or GCC):
 
 ```bash
 clang++ -std=c++17 -O2 -pthread ThreadPool.cpp main.cpp -o ThreadPoolWithDelay
